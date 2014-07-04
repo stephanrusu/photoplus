@@ -1,0 +1,50 @@
+<script type="text/javascript">
+	function openFacebookPopUp() {
+		var fburl = 'http://www.okilla.com/1205/resource-ui-simeon-ui-kit-psd/';
+		var fbimgurl = 'http://';
+		var fbtitle = 'UI: Simeon UI Kit (PSD) ... http://tinyurl.com/kec8etr';
+		var fbsummary = "Graphical user interfaces (GUIs) use structural and interaction graphical elements to offer a consistent visua ... http://tinyurl.com/kec8etr";
+		var sharerURL = "http://www.facebook.com/sharer/sharer.php?s=100&p[url]=" + encodeURI(fburl) + "&p[title]=" + encodeURI(fbtitle) + "&p[summary]=" + encodeURI(fbsummary);
+		window.open(
+		sharerURL,
+		'facebook-share-dialog', 
+		'width=626,height=436'); 
+		return  false;
+	}
+	function openGooglePlusPopUp(){            
+		var sharerURL = "https://plus.google.com/share?url=http%3A%2F%2Fwww.okilla.com%2F1205%2Fresource-ui-simeon-ui-kit-psd%2F";
+		window.open(
+		sharerURL,
+		'google-plus-share-dialog', 
+		'width=626,height=436'); 
+		return  false;
+	}
+	function openTwitterPopUp(){
+		var sharerURL = "http://twitter.com/intent/tweet?text=UI%3A+Simeon+UI+Kit+%28PSD%29+...+http%3A%2F%2Ftinyurl.com%2Fkec8etr";
+		window.open(
+		sharerURL,
+		'twitter-share-dialog', 
+		'width=626,height=436'); 
+		return  false;
+	}
+	function openLinkedInPopUp(){            
+		var linkedintitle = 'UI: Simeon UI Kit (PSD)';
+		var linkedinsummary = "Graphical user interfaces (GUIs) use structural and interaction graphical elements to offer a consistent visua ... http://tinyurl.com/kec8etr";
+		var sharerURL = "http://www.linkedin.com/shareArticle?mini=true&url=http%3A%2F%2Ftinyurl.com%2Fkec8etr&title=" + encodeURI(linkedintitle) + "&summary=" + encodeURI(linkedinsummary) + "";
+		window.open(
+		sharerURL,
+		'linkedin-share-dialog', 
+		'width=830,height=490'); 
+		return  false;
+	}
+	function openPinterestPopUp(){            
+		var pinteresttitle = 'UI: Simeon UI Kit (PSD) ... http://tinyurl.com/kec8etr';
+		var pinterestmedia = "http://www.okilla.com/uploadfile/1/2014/02/23/11393215114/1393216502_simeon-ui-kit-logo-height.png";
+		var sharerURL = "http://pinterest.com/pin/create/link/?url=http%3A%2F%2Ftinyurl.com%2Fkec8etr&description=" + encodeURI(pinteresttitle) + "&media=" + encodeURI(pinterestmedia) + "";
+		window.open(
+		sharerURL,
+		'linkedin-share-dialog', 
+		'width=700,height=300'); 
+		return  false;
+	}
+</script>

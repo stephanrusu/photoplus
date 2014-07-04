@@ -1,0 +1,495 @@
+@-webkit-keyframes enabling1 {
+    0% {
+        border-bottom-color: #1abc9c;
+    }
+    5.5% {
+        border-bottom-color: #1abc9c;
+    }
+    8.5% {
+        border-bottom-color: #dbdbdb;
+    }
+    54.5% {
+        border-bottom-color: #dbdbdb;
+    }
+    57.5% {
+        border-bottom-color: #1abc9c;
+    }
+    100% {
+        border-bottom-color: #1abc9c;
+    }
+}
+
+@-webkit-keyframes enabling2 {
+    0% {
+        border-bottom-color: #1abc9c;
+    }
+    11% {
+        border-bottom-color: #1abc9c;
+    }
+    14% {
+        border-bottom-color: #dbdbdb;
+    }
+    60% {
+        border-bottom-color: #dbdbdb;
+    }
+    63% {
+        border-bottom-color: #1abc9c;
+    }
+    100% {
+        border-bottom-color: #1abc9c;
+    }
+}
+
+@-webkit-keyframes enabling3 {
+    0% {
+        border-bottom-color: #1abc9c;
+    }
+    16.5% {
+        border-bottom-color: #1abc9c;
+    }
+    19.5% {
+        border-bottom-color: #dbdbdb;
+    }
+    65.5% {
+        border-bottom-color: #dbdbdb;
+    }
+    68.5% {
+        border-bottom-color: #1abc9c;
+    }
+    100% {
+        border-bottom-color: #1abc9c;
+    }
+}
+
+@-webkit-keyframes enabling4 {
+    0% {
+        border-bottom-color: #1abc9c;
+    }
+    22% {
+        border-bottom-color: #1abc9c;
+    }
+    25% {
+        border-bottom-color: #dbdbdb;
+    }
+    71% {
+        border-bottom-color: #dbdbdb;
+    }
+    74% {
+        border-bottom-color: #1abc9c;
+    }
+    100% {
+        border-bottom-color: #1abc9c;
+    }
+}
+
+@-webkit-keyframes enabling5 {
+    0% {
+        border-bottom-color: #1abc9c;
+    }
+    27.5% {
+        border-bottom-color: #1abc9c;
+    }
+    30.5% {
+        border-bottom-color: #dbdbdb;
+    }
+    76.5% {
+        border-bottom-color: #dbdbdb;
+    }
+    79.5% {
+        border-bottom-color: #1abc9c;
+    }
+    100% {
+        border-bottom-color: #1abc9c;
+    }
+}
+
+@-webkit-keyframes enabling6 {
+    0% {
+        border-bottom-color: #1abc9c;
+    }
+    33% {
+        border-bottom-color: #1abc9c;
+    }
+    36% {
+        border-bottom-color: #dbdbdb;
+    }
+    82% {
+        border-bottom-color: #dbdbdb;
+    }
+    85% {
+        border-bottom-color: #1abc9c;
+    }
+    100% {
+        border-bottom-color: #1abc9c;
+    }
+}
+
+@-webkit-keyframes enabling7 {
+    0% {
+        border-bottom-color: #1abc9c;
+    }
+    38.5% {
+        border-bottom-color: #1abc9c;
+    }
+    41.5% {
+        border-bottom-color: #dbdbdb;
+    }
+    87.5% {
+        border-bottom-color: #dbdbdb;
+    }
+    90.5% {
+        border-bottom-color: #1abc9c;
+    }
+    100% {
+        border-bottom-color: #1abc9c;
+    }
+}
+
+@-webkit-keyframes enabling8 {
+    0% {
+        border-bottom-color: #1abc9c;
+    }
+    44% {
+        border-bottom-color: #1abc9c;
+    }
+    47% {
+        border-bottom-color: #dbdbdb;
+    }
+    93% {
+        border-bottom-color: #dbdbdb;
+    }
+    96% {
+        border-bottom-color: #1abc9c;
+    }
+    100% {
+        border-bottom-color: #1abc9c;
+    }
+}
+
+@-moz-keyframes enabling1 {
+    0% {
+        border-bottom-color: #1abc9c;
+    }
+    5.5% {
+        border-bottom-color: #1abc9c;
+    }
+    8.5% {
+        border-bottom-color: #dbdbdb;
+    }
+    54.5% {
+        border-bottom-color: #dbdbdb;
+    }
+    57.5% {
+        border-bottom-color: #1abc9c;
+    }
+    100% {
+        border-bottom-color: #1abc9c;
+    }
+}
+
+@-moz-keyframes enabling2 {
+    0% {
+        border-bottom-color: #1abc9c;
+    }
+    11% {
+        border-bottom-color: #1abc9c;
+    }
+    14% {
+        border-bottom-color: #dbdbdb;
+    }
+    60% {
+        border-bottom-color: #dbdbdb;
+    }
+    63% {
+        border-bottom-color: #1abc9c;
+    }
+    100% {
+        border-bottom-color: #1abc9c;
+    }
+}
+
+@-moz-keyframes enabling3 {
+    0% {
+        border-bottom-color: #1abc9c;
+    }
+    16.5% {
+        border-bottom-color: #1abc9c;
+    }
+    19.5% {
+        border-bottom-color: #dbdbdb;
+    }
+    65.5% {
+        border-bottom-color: #dbdbdb;
+    }
+    68.5% {
+        border-bottom-color: #1abc9c;
+    }
+    100% {
+        border-bottom-color: #1abc9c;
+    }
+}
+
+@-moz-keyframes enabling4 {
+    0% {
+        border-bottom-color: #1abc9c;
+    }
+    22% {
+        border-bottom-color: #1abc9c;
+    }
+    25% {
+        border-bottom-color: #dbdbdb;
+    }
+    71% {
+        border-bottom-color: #dbdbdb;
+    }
+    74% {
+        border-bottom-color: #1abc9c;
+    }
+    100% {
+        border-bottom-color: #1abc9c;
+    }
+}
+
+@-moz-keyframes enabling5 {
+    0% {
+        border-bottom-color: #1abc9c;
+    }
+    27.5% {
+        border-bottom-color: #1abc9c;
+    }
+    30.5% {
+        border-bottom-color: #dbdbdb;
+    }
+    76.5% {
+        border-bottom-color: #dbdbdb;
+    }
+    79.5% {
+        border-bottom-color: #1abc9c;
+    }
+    100% {
+        border-bottom-color: #1abc9c;
+    }
+}
+
+@-moz-keyframes enabling6 {
+    0% {
+        border-bottom-color: #1abc9c;
+    }
+    33% {
+        border-bottom-color: #1abc9c;
+    }
+    36% {
+        border-bottom-color: #dbdbdb;
+    }
+    82% {
+        border-bottom-color: #dbdbdb;
+    }
+    85% {
+        border-bottom-color: #1abc9c;
+    }
+    100% {
+        border-bottom-color: #1abc9c;
+    }
+}
+
+@-moz-keyframes enabling7 {
+    0% {
+        border-bottom-color: #1abc9c;
+    }
+    38.5% {
+        border-bottom-color: #1abc9c;
+    }
+    41.5% {
+        border-bottom-color: #dbdbdb;
+    }
+    87.5% {
+        border-bottom-color: #dbdbdb;
+    }
+    90.5% {
+        border-bottom-color: #1abc9c;
+    }
+    100% {
+        border-bottom-color: #1abc9c;
+    }
+}
+
+@-moz-keyframes enabling8 {
+    0% {
+        border-bottom-color: #1abc9c;
+    }
+    44% {
+        border-bottom-color: #1abc9c;
+    }
+    47% {
+        border-bottom-color: #dbdbdb;
+    }
+    93% {
+        border-bottom-color: #dbdbdb;
+    }
+    96% {
+        border-bottom-color: #1abc9c;
+    }
+    100% {
+        border-bottom-color: #1abc9c;
+    }
+}
+
+.preloader {
+    position: relative;
+    left: 50%;
+    margin-top: 50px;
+    margin-left: -50px;
+    width: 100px;
+    height: 100px;
+    -webkit-transform: rotate(225deg);
+    -moz-transform: rotate(225deg);
+}
+
+.preloader .circle {
+    z-index: 1;
+    width: 100px;
+    height: 100px;
+    background: #1abc9c;
+    border-radius: 50px;
+}
+
+.preloader .circle2 {
+    z-index: 1;
+    position: absolute;
+    left: 21px;
+    top: 21px;
+    width: 58px;
+    height: 58px;
+    background: white;
+    border-radius: 29px;
+}
+
+.preloader .line {
+    position: absolute;
+    width: 6px;
+    height: 102px;
+    background: white;
+    left: 50%;
+    margin-top: -1px;
+    margin-left: -3px;
+}
+
+.preloader .wraptrapeze {
+    overflow: hidden;
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+}
+
+.preloader .trapeze {
+    position: absolute;
+    width: 40px;
+    bottom: 3px;
+    left: 45px;
+    -moz-transform: rotate(-19deg);
+    -webkit-transform: rotate(-19deg);
+    border-bottom: 23px solid #dbdbdb;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+}
+
+.preloader .wraptrapeze1 {
+    -moz-transform: rotate(0deg);
+    -webkit-transform: rotate(0deg);
+}
+
+.preloader .wraptrapeze2 {
+    -moz-transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+}
+
+.preloader .wraptrapeze3 {
+    -moz-transform: rotate(90deg);
+    -webkit-transform: rotate(90deg);
+}
+
+.preloader .wraptrapeze4 {
+    -moz-transform: rotate(135deg);
+    -webkit-transform: rotate(135deg);
+}
+
+.preloader .wraptrapeze5 {
+    -moz-transform: rotate(180deg);
+    -webkit-transform: rotate(180deg);
+}
+
+.preloader .wraptrapeze6 {
+    -moz-transform: rotate(225deg);
+    -webkit-transform: rotate(225deg);
+}
+
+.preloader .wraptrapeze7 {
+    -moz-transform: rotate(270deg);
+    -webkit-transform: rotate(270deg);
+}
+
+.preloader .wraptrapeze8 {
+    -moz-transform: rotate(315deg);
+    -webkit-transform: rotate(315deg);
+}
+
+.preloader .wraptrapeze1 .trapeze {
+    -moz-animation: enabling1 2s infinite linear;
+    -webkit-animation: enabling1 2s infinite linear;
+}
+
+.preloader .wraptrapeze2 .trapeze {
+    -moz-animation: enabling2 2s infinite linear;
+    -webkit-animation: enabling2 2s infinite linear;
+}
+
+.preloader .wraptrapeze3 .trapeze {
+    -moz-animation: enabling3 2s infinite linear;
+    -webkit-animation: enabling3 2s infinite linear;
+}
+
+.preloader .wraptrapeze4 .trapeze {
+    -moz-animation: enabling4 2s infinite linear;
+    -webkit-animation: enabling4 2s infinite linear;
+}
+
+.preloader .wraptrapeze5 .trapeze {
+    -moz-animation: enabling5 2s infinite linear;
+    -webkit-animation: enabling5 2s infinite linear;
+}
+
+.preloader .wraptrapeze6 .trapeze {
+    -moz-animation: enabling6 2s infinite linear;
+    -webkit-animation: enabling6 2s infinite linear;
+}
+
+.preloader .wraptrapeze7 .trapeze {
+    -moz-animation: enabling7 2s infinite linear;
+    -webkit-animation: enabling7 2s infinite linear;
+}
+
+.preloader .wraptrapeze8 .trapeze {
+    -moz-animation: enabling8 2s infinite linear;
+    -webkit-animation: enabling8 2s infinite linear;
+}
+
+.preloader .line1 {
+    -moz-transform: rotate(0deg);
+    -webkit-transform: rotate(0deg);
+}
+
+.preloader .line2 {
+    -moz-transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+}
+
+.preloader .line3 {
+    -moz-transform: rotate(90deg);
+    -webkit-transform: rotate(90deg);
+}
+
+.preloader .line4 {
+    -moz-transform: rotate(135deg);
+    -webkit-transform: rotate(135deg);
+}
