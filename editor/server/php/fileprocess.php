@@ -83,7 +83,7 @@
 
 
         $mapGeoJson = array(
-            "map" => "http://photoplus.app/editor/server/php/".$destFolder."/{z}/{x}/{y}.jpg",
+            "map" => "http://localhost/photoplus/editor/server/php/".$destFolder."/{z}/{x}/{y}.jpg",
             "minZoom" => 0,
             "maxZoom" => $maxZoomLevel,
             "type" => "FeatureCollection",
