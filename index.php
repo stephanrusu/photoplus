@@ -40,12 +40,6 @@
                         <li>
                             <a class="scrollTo" href="#home">Home</a>
                         </li>
-                        <li>
-                            <a class="scrollTo" href="#showcase">Showcase</a>
-                        </li>                    
-                        <li>
-                            <a class="scrollTo" href="#contact">Contact</a>
-                        </li>
                         <?php
                             if ($login->isUserLoggedIn() == false) {
                                 echo '  
@@ -57,13 +51,6 @@
                                 </li>';
                             }
                             else {
-                                // echo '
-                                //     <li>
-                                //         <a href="./login">'.$_SESSION['user_name'].'</a>
-                                //     </li>';      
-                                //<div class="col-xs-5 col-sm-5 col-md-5 col-lg-5">
-                                //                        <img src="' . $login->user_gravatar_image_url . '" alt="Alternate Text" class="img-responsive" />
-                                //                    </div>                                      
                                 echo '<li>
                                         <a href="#" id="drop" class="dropdown-toggle" data-toggle="dropdown">Account<b class="caret"></b></a>
                                         <ul class="dropdown-menu" role="menu" aria-labelledby="drop">                                        
@@ -87,92 +74,6 @@
             <h2 class="text-center">Do more with your image</h2>
             <p class="text-center title-info message">PhotoPlus is a open-source platform which transforms every <br/> ordinary image in a new extraordinary experience</p>            
             <p class="text-center"><a href="./editor" class="btn btn-lg inverted-btn-white">Start now<i class="fa fa-chevron-right fa-fw"></i></a></p>       
-        </div>
-    </div>
-    <div class="slide-content" id="showcase">
-        <div class="container">                      
-            <div class='row row-top'> 
-                 <!-- START THE FEATURETTES -->
-
-                <div class="row featurette">
-                    <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4 text-feature">
-                        <h2 class="featurette-heading">Masterpiece <span class="text-muted"></span></h2>
-                        <p class="lead">A Sunday on La Grande Jatte (1884) - Georges Seurat</p>
-                        <a href="https://photoplus.app/editor/KfC3k" class="btn btn-start" target="_blank">View Project</a>
-                    </div>
-                    <div class="col-xs-12 col-sm-8 col-md-8 col-lg-8 iframe-wrap" style="height:500px;">
-                        <div class="cover-link"></div>
-                        <iframe style="width:100%; height:500px;" frameborder="0" sandbox="allow-scripts allow-pointer-lock allow-same-origin" 
-                                data-src="https://photoplus.app/editor/view-project-static.php?uid=KfC3k" scrolling="no"
-                                allowtransparency="true" data-title="" data-slug-hash="KfC3k" 
-                                src="https://photoplus.app/editor/view-project-static.php?uid=KfC3k" ></iframe>
-                    </div>
-                </div>
-
-                <hr class="featurette-divider">
-
-                <div class="row featurette">
-                    <div class="col-xs-12 col-sm-8 col-md-8 col-lg-8 iframe-wrap" style="height:500px;">
-                        <div class="cover-link"></div>
-                        <iframe style="width:100%; height:500px;" frameborder="0" sandbox="allow-scripts allow-pointer-lock allow-same-origin" 
-                                data-src="https://photoplus.app/editor/view-project-static.php?uid=G8ls9" scrolling="no"
-                                allowtransparency="true" data-title="" data-slug-hash="G8ls9" 
-                                src="https://photoplus.app/editor/view-project-static.php?uid=G8ls9" ></iframe>
-                    </div>
-                    <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4 text-feature">
-                        <h2 class="featurette-heading">Space - The final frontier <span class="text-muted"></span></h2>
-                        <p class="lead">Messier 81 ( also known as NGC 3031 or Bode's Galaxy )</p>
-                        <a href="https://photoplus.app/editor/G8ls9" class="btn btn-start" target="_blank">View Project</a>
-                    </div>
-                </div>
-
-                <hr class="featurette-divider">
-
-                <div class="row featurette">
-                    <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4 text-feature">
-                        <h2 class="featurette-heading">Infographic <span class="text-muted"></span></h2>
-                        <p class="lead">iA's Web Trend Map ( based on Tokyo Metro System )</p>
-                        <a href="https://photoplus.app/editor/On5pQ" class="btn btn-start" target="_blank">View Project</a>
-                    </div>
-                    <div class="col-xs-12 col-sm-8 col-md-8 col-lg-8 iframe-wrap" style="height:500px;">
-                        <div class="cover-link"></div>
-                        <iframe style="width:100%; height:500px;" frameborder="0" sandbox="allow-scripts allow-pointer-lock allow-same-origin" 
-                                data-src="https://photoplus.app/editor/view-project-static.php?uid=On5pQ" scrolling="no"
-                                allowtransparency="true" data-title="" data-slug-hash="On5pQ" 
-                                src="https://photoplus.app/editor/view-project-static.php?uid=On5pQ" ></iframe>
-                    </div>
-                </div>
-            </div>        
-        </div>
-    </div>
-    <div class="main-content" id="contact">
-        <div class="container">
-            <div class="row">
-                <div class="col-sm-3 col-md-3 col-lg-3"></div>
-                <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
-                    <div class="text-center"><h2>Get in touch with us</h2></div>
-                    <form  role="form" action="contact/index.php"  method="post" id="contact-form">
-                        <div class="form-group">
-                            <span class="filler">Hello,<br/>My </span>
-                            <label for="name" class="label-field">name</label>
-                            <span class="filler"> is </span>
-                            <input type="text" name="name" class="input-field" id="name" placeholder="your name here"/>
-
-                            <span class="filler"> and my </span>
-                            <label for="email" class="label-field">email address</label>
-                            <span class="filler"> is </span>
-                            <input type="email" name="email" class="input-field" id="email" placeholder="your email address" />
-                            <br>
-                            <span class="filler">I'd like to send you a </span>
-                            <label for="message" class="label-field">message</label>
-                            <span class="filler">  regarding... </span><br/>
-                            <textarea name="message" rows="4" class="input-field" style="width:100%;" id="message" placeholder="Enter your message here"></textarea>
-                        </div>
-                    <button type="submit" id="submit" class="btn inverted-btn-white btn-lg btn-block">Submit</button>
-                </form>
-                </div>
-                <div class="col-sm-3 col-md-3 col-lg-3"></div>
-            </div>
         </div>
     </div>
     <footer class="footer-content"> 
@@ -202,52 +103,6 @@
 	<script type="text/javascript">    
 	$(document).ready(function() {
 	    $("html").niceScroll({cursorcolor:"#333",cursoropacitymax:0.6,cursorwidth:10});        
-        var frm = $("#contact-form");
-        frm.submit(function(ev) {            
-            $.ajax({
-                type: frm.attr('method'),
-                url: frm.attr('action'),
-                dataType: "json",
-                data: frm.find('input, textarea').serialize() + "&contact=1",
-                success: function(data) {
-                    if(data.success) {
-                        $('.top-right').notify({
-                            message : {
-                                text : data.message
-                            },
-                            type : 'success',
-                            fadeOut : {
-                                delay: Math.floor(Math.random() * 500) + 2500
-                            }
-                        }).show(); 
-                        frm.reset();       
-                    } else {
-                        $('.top-right').notify({
-                            message : {
-                                text : data.message
-                            },
-                            type : 'danger',
-                            fadeOut : {
-                                delay: Math.floor(Math.random() * 500) + 2500
-                            }
-                        }).show();
-                    }            
-                },
-                error: function(data) {
-                    $('.top-right').notify({
-                        message : {
-                            text : data.message
-                        },
-                        type : 'danger',
-                        fadeOut : {
-                            delay: Math.floor(Math.random() * 500) + 2500
-                        }
-                    }).show();
-                }
-            });
-            ev.preventDefault();
-        });
-    });
 	</script>
     </body>
 </html>
