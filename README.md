@@ -7,4 +7,5 @@ Requirements
 - IMagick extension for PHP
 
 Installation
+- edit upload location folder in file "fileprocess.php"
 - run / import "photoplus.sql" file in your database
