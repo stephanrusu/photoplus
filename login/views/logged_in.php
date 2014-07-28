@@ -49,7 +49,7 @@
                                         <div class="content hide"> 
                                             <p>'.$row["description"].'</p>
                                             <div class="info-buttons">
-                                                <a href="https://photoplus.app/editor/'.$row["unique_id"].'" target="_blank" class="btn btn-default viewProject">View project</a>
+                                                <a href="http://localhost/photoplus/editor/'.$row["unique_id"].'" target="_blank" class="btn btn-default viewProject">View project</a>
                                                 <button data-toggle="tooltip" data-placement="top" title="Delete"  type="button" class="btn btn-default pull-right deleteBtn" id=""><i class="fa fa-trash-o fa-fw fa-lg"></i></button>
                                                 <input type="hidden" name="uniqueId" value="'.$row["unique_id"].'" class="uniqueId"/>
                                             </div>
@@ -64,9 +64,9 @@
                                         </div>
                                         <div class="cover-link"></div>
                                         <iframe style="width:100%; height:470px;" frameborder="0" sandbox="allow-scripts allow-pointer-lock allow-same-origin" 
-                                                data-src="https://photoplus.app/editor/view-project-static.php?uid='.$row["unique_id"].'" scrolling="no"
+                                                data-src="http://localhost/photoplus/editor/view-project-static.php?uid='.$row["unique_id"].'" scrolling="no"
                                                 allowtransparency="true" data-title="" data-slug-hash="'.$row["unique_id"].'" 
-                                                src="https://photoplus.app/editor/view-project-static.php?uid='.$row["unique_id"].'" ></iframe>
+                                                src="http://localhost/photoplus/editor/view-project-static.php?uid='.$row["unique_id"].'" ></iframe>
                                         
                                       </div>'."\n";                                      
                                 echo $panel;
