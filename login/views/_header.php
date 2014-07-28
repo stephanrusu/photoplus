@@ -25,7 +25,7 @@
                     <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
                         <span class="fa fa-bars"></span>
                     </button>
-                <a class="navbar-brand" href="https://photoplus.app">PhotoPlus</a>
+                <a class="navbar-brand" href="http://localhost/photoplus">PhotoPlus</a>
                 </div>
                 <div class="navbar-collapse collapse">                    
                     <a href="../editor" class="btn inverted-btn-white  pull-right" style=" margin: 9px 0; color: #1abc9c; border: 0px;">Create new project</a>
