@@ -103,6 +103,7 @@
 	<script type="text/javascript">    
 	$(document).ready(function() {
 	    $("html").niceScroll({cursorcolor:"#333",cursoropacitymax:0.6,cursorwidth:10});        
+	});
 	</script>
     </body>
 </html>
