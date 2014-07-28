@@ -70,7 +70,7 @@
                         }
                     }).responseText);
                 }
-                var jsonInfo = getJson("https://photoplus.app/editor/server/php/" + fileGeoJson);                 
+                var jsonInfo = getJson("http://localhost/photoplus/editor/server/php/" + fileGeoJson);                 
                 //var leafletUrl = 'https://{s}.tiles.mapbox.com/v3/foursquare.m3elv7vi/{z}/{x}/{y}.png';
                 var drawnItems = new L.FeatureGroup();
                 var map = new L.TileLayer(jsonInfo.map, {
