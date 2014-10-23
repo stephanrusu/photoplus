@@ -3,7 +3,6 @@ Photoplus
 
 Application that allows you to view huge images using a mapping service. 
 
-[Demo](http://gdriv.es/stephanrusu/photoplus-demo)
 
 Requirements
 - IMagick extension for PHP
